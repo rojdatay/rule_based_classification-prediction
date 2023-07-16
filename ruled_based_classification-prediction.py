@@ -5,7 +5,6 @@
 # definitions and to estimate how much profit can be generated from  the new customers according to these segments.
 
 # In this study, how to do rule-based classification, customer-based revenue calculation and prediction
-# have been discussed step by step.
 
 #####################################################################
 # Importing Libraries
@@ -23,8 +22,6 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.expand_frame_repr', True)
 
 # Load Dataset
-
-
 df= pd.read_csv("Dataset/python_for_data_science/data_analysis_with_python/datasets/persona.csv")
 
 #####################################################################
@@ -49,12 +46,9 @@ def describe_data(df):
 
 data_analysis(df)
 
-
 #####################################################################
 # Selection of Categorical and Numerical Variables
 #####################################################################
-
-
 # Define a function to perform the selection of numeric and categorical variables in the data set in a parametric way.
 
 def grab_col_names(dataframe, cat_th=10, car_th=20):
