@@ -264,11 +264,13 @@ def ruled_based_classification_prediction(dataframe):
 
 ruled_based_classification_prediction(df)
 
+#inputs
 #Enter a country name (USA/EUR/BRA/DEU/TUR/FRA):>? TUR
 #Enter the operating system of phone (IOS/ANDROID):>? IOS
 #Enter the gender (FEMALE/MALE):>? FEMALE
 #Enter the age class (0_18/19_23/24_30/31_40/41_70):>? 24_30
 
+#outputs
 #TUR_IOS_FEMALE_24_30
 #Segment:C
 #Price:34.0
